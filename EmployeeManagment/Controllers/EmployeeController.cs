@@ -59,7 +59,7 @@ namespace EmployeeManagment.Controllers
             existingEmployee.Name = updatedEmployee.Name;
             existingEmployee.Designation = updatedEmployee.Designation;
             existingEmployee.Address = updatedEmployee.Address;
-            
+      
             _employeeDbContext.SaveChanges();
 
             return NoContent(); 
