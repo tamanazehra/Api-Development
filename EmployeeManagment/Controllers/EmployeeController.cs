@@ -11,7 +11,6 @@ namespace EmployeeManagment.Controllers
         private readonly EmployeeDbContext _employeeDbContext;
         public EmployeeController(EmployeeDbContext employeeDbContext)
         {
- 
             _employeeDbContext = employeeDbContext;
         }
 
