@@ -170,3 +170,4 @@ C:\Users\Administrator\OneDrive\Documents\GitHub\API-Development\EmployeeManagme
 C:\Users\Administrator\OneDrive\Documents\GitHub\API-Development\EmployeeManagment\obj\Debug\net8.0\EmployeeManagment.genruntimeconfig.cache
 C:\Users\Administrator\OneDrive\Documents\GitHub\API-Development\EmployeeManagment\obj\Debug\net8.0\ref\EmployeeManagment.dll
 C:\Users\Administrator\OneDrive\Documents\GitHub\API-Development\EmployeeManagment\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Administrator\OneDrive\Documents\GitHub\API-Development\EmployeeManagment\obj\Debug\net8.0\EmployeeManagment.sourcelink.json
