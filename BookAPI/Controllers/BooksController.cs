@@ -13,9 +13,6 @@ namespace BookAPI.Controllers
         {
             _booksDbContext = booksDbContext;
         }
-
-        //Get all the books from database
-
         [HttpGet]
         public ActionResult<Books> GetAllBooks()
         {
@@ -23,9 +20,6 @@ namespace BookAPI.Controllers
 
             return Ok(getAllBooks);
         }
-
-        //get books by id 
-
         [HttpGet("{id}")]
         public ActionResult GetBook(int id)
         {
@@ -33,9 +27,6 @@ namespace BookAPI.Controllers
 
             return Ok(getBook);
         }
-
-        //create book 
-
         [HttpPost]
         public ActionResult CreateBook([FromBody] Books book)
         {
@@ -44,9 +35,6 @@ namespace BookAPI.Controllers
 
             return Ok(CreateBook);
         }
-
-        //Delete the book using id
-
         [HttpDelete("{id}")]
         public ActionResult DeleteBook(int id) 
         {
@@ -56,9 +44,6 @@ namespace BookAPI.Controllers
 
             return NoContent();
         }
-
-        //update  the existing book
-
         [HttpPut("{id}")]
         public ActionResult UpdateBook(int id, [FromBody] Books updatedbook) 
         {
