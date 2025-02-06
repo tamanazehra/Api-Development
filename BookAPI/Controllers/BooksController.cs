@@ -18,8 +18,46 @@ namespace BookAPI.Controllers
         {
             var getAllBooks = _booksDbContext.Books.ToList();
 
-
             return Ok(getAllBooks);
         }
+        [HttpGet("{id}")]
+        public ActionResult GetBook(int id)
+        {
+            var getBook = _booksDbContext.Books.Find(id);
+
+            return Ok(getBook);
+        }
+        [HttpPost]
+        public ActionResult CreateBook([FromBody] Books book)
+        {
+            _booksDbContext.Books.Add(book);
+            _booksDbContext.SaveChanges();
+
+            return Ok(CreateBook);
+        }
+        [HttpDelete("{id}")]
+        public ActionResult DeleteBook(int id) 
+        {
+            var bookToDelete = _booksDbContext.Books.Find(id);
+            _booksDbContext.Books.Remove(bookToDelete);
+            _booksDbContext.SaveChanges();
+
+            return NoContent();
+        }
+        [HttpPut("{id}")]
+        public ActionResult UpdateBook(int id, [FromBody] Books updatedbook) 
+        {
+            var existingBook = _booksDbContext.Books.Find(id);
+
+            existingBook.Name = updatedbook.Name;
+            existingBook.Author = updatedbook.Author;
+            existingBook.ReleaseYear = updatedbook.ReleaseYear;
+            existingBook.Price = updatedbook.Price;
+
+            _booksDbContext.SaveChanges();
+
+            return NoContent();
+        }
+
     }
 }
