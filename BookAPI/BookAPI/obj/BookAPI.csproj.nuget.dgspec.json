@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Api-Development\\BookAPI\\BookAPI\\BookAPI.csproj": {}
+    "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\API-Development\\BookAPI\\BookAPI\\BookAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Api-Development\\BookAPI\\BookAPI\\BookAPI.csproj": {
+    "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\API-Development\\BookAPI\\BookAPI\\BookAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Api-Development\\BookAPI\\BookAPI\\BookAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\API-Development\\BookAPI\\BookAPI\\BookAPI.csproj",
         "projectName": "BookAPI",
-        "projectPath": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Api-Development\\BookAPI\\BookAPI\\BookAPI.csproj",
+        "projectPath": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\API-Development\\BookAPI\\BookAPI\\BookAPI.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\API-Development\\BookAPI\\BookAPI\\obj\\",
         "projectStyle": "PackageReference",

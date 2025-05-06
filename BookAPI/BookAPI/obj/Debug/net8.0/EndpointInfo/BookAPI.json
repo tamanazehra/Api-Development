@@ -134,6 +134,9 @@
   "components": {
     "schemas": {
       "Book": {
+        "required": [
+          "title"
+        ],
         "type": "object",
         "properties": {
           "id": {
@@ -141,8 +144,8 @@
             "format": "int32"
           },
           "title": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "author": {
             "type": "string",
